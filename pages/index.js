@@ -25,7 +25,7 @@ export default function Home({ initialColor }) {
   useEffect(() => {
     if (!color) return;
     const { bg } = COLOR_MAP[color];
-    document.body.classList.add(bg);
+    document.body.classList.add("transition-colors", bg);
 
     return () => {
       document.body.classList.remove(bg);
