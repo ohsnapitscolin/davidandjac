@@ -49,22 +49,22 @@ export default function Home({ initialColor }) {
         <span>
           Jacqueline Pifer <span className={alpinaClasses}>and</span>
         </span>
-        <span>DAVID SHATAN-PARDO</span>
+        <span>David Shatan-Pardo</span>
         <span>
-          <span className={alpinaClasses}>are</span> GETTING MARRIED
+          <span className={alpinaClasses}>are</span> getting married
         </span>
         <br />
-        <span>JOIN US THE WEEKEND</span>
+        <span>Join us the weekend</span>
         <span>
-          <span className={alpinaClasses}>of</span> JUNE 14
+          <span className={alpinaClasses}>of</span> June 14
           <span className={alpinaClasses}>th</span> 2025
         </span>
         <span>
-          <span className={alpinaClasses}>in</span> BEAUTIFUL HUDSON, NY
+          <span className={alpinaClasses}>in</span> beautiful Hudson, NY
         </span>
         <br />
         <span>
-          DETAILS <span className={alpinaClasses}>to</span> come
+          Details <span className={alpinaClasses}>to</span> come
         </span>
       </div>
       <div className={`${text} font-alpina absolute bottom-10  text-center`}>
