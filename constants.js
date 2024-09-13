@@ -33,7 +33,7 @@ export const COLOR_MAP = {
     text: "text-brown-text",
     bg: "bg-brown-bg",
     hoverText: "md:hover:text-brown-text",
-    hoverBg: "md:hover:zbg-brown-bg",
+    hoverBg: "md:hover:bg-brown-bg",
   },
 };
 
