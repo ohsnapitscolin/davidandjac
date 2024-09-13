@@ -3,9 +3,10 @@ import { useEffect, useState } from "react";
 import { COLOR_MAP, getNextColor } from "@/constants";
 
 export default function Home() {
-  const [color, setColor] = useState("tan");
+  const [color, setColor] = useState();
 
   useEffect(() => {
+    if (!color) return;
     const { bg } = COLOR_MAP[color];
     document.body.classList.add(bg);
 
@@ -17,6 +18,8 @@ export default function Home() {
   useEffect(() => {
     setColor(getNextColor());
   }, []);
+
+  if (!color) return;
 
   const alpinaClasses = `font-alpina-italic italic lowercase`;
   const { text, bg } = COLOR_MAP[color];
