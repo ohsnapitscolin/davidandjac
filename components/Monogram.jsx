@@ -19,8 +19,6 @@ const Monogram = ({ className, color, onClick }) => {
   const { text, bg } = COLOR_MAP[color];
   const { hoverText, hoverBg } = COLOR_MAP[nextColor] || {};
 
-  console.log(`MONOGRAM ${color}`);
-
   return (
     <button
       className={`text-base rounded-full p-1 font-alpina hover:transition-colors ${text} ${bg} ${enabled && `${hoverText} ${hoverBg}`} ${className}`}
