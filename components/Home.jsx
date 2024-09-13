@@ -26,9 +26,6 @@ export default function Home() {
     <div
       className={`relative w-full min-h-full ${bg} flex flex-col items-center justify-center transition-colors py-10`}
     >
-      {/*<h1 className="text-6xl font-brunswick">BRUNSWICK</h1>*/}
-      {/*<h1 className="text-6xl font-alpina">ALPINA</h1>*/}
-
       <div
         className={`shrink-0 relative pb-32 ${text} text-center text-2xl lg:text-3xl uppercase flex flex-col font-brunswick`}
       >
