@@ -7,6 +7,11 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    extend: {
+      transitionTimingFunction: {
+        'monogram-bezier': 'cubic-bezier(0.5, 0, 0, 1)',
+      },
+    },
     screens: {
       md: "768px",
       lg: "1020px",

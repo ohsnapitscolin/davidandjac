@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { COLOR_MAP, getNextColor } from "@/constants";
-import MonogramIcon from "@/assets/monogram.svg";
 
 const Monogram = ({ className, color, onClick }) => {
   const [nextColor, setNextColor] = useState();
@@ -21,17 +20,21 @@ const Monogram = ({ className, color, onClick }) => {
 
   return (
     <button
-      className={`relative group ${className}`}
+      className={`relative p-3 group ${className}`}
       onClick={() => onClick(nextColor)}
       disabled={!enabled}
     >
       <div
-        className={`absolute rounded-full top-3 left-3 ${bg} h-[62px] w-[124px] ${enabled && `group-hover:top-0 group-hover:left-0 group-hover:h-full group-hover:w-full ${groupHoverBg}`}`}
-        style={{
-          transition: "all 300ms cubic-bezier(0.5, 0, 0, 1)",
-        }}
+        className={`transition-all md:duration-300 md:ease-monogram-bezier absolute rounded-full top-3 left-3 ${bg} h-[62px] w-[124px] ${enabled && `md:group-hover:top-0 md:group-hover:left-0 md:group-hover:h-full md:group-hover:w-full ${groupHoverBg}`}`}
       />
-      <MonogramIcon style={{ mixBlendMode: "overlay" }} />
+      <img
+        className="mt-[2px]"
+        alt={""}
+        width={124}
+        height={62}
+        src={"/monogram.png"}
+        style={{ mixBlendMode: "overlay" }}
+      />
     </button>
   );
 };

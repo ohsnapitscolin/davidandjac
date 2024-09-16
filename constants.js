@@ -45,11 +45,12 @@ export const COLOR_MAP = {
 
 export const COLORS = Object.keys(COLOR_MAP);
 
+export const getRandomColor = () => {
+  return COLORS[Math.floor(Math.random() * COLORS.length)];
+};
+
 export const getNextColor = (currentColor) => {
-  const color = COLORS[Math.floor(Math.random() * COLORS.length)];
-  if (color === currentColor) {
-    return getNextColor(currentColor);
-  } else {
-    return color;
-  }
+  const currIndex = COLORS.findIndex((c) => c === currentColor);
+  const nextIndex = (currIndex + 1) % COLORS.length;
+  return COLORS[nextIndex];
 };
