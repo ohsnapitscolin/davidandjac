@@ -8,8 +8,17 @@ module.exports = {
   ],
   theme: {
     extend: {
+      transitionProperty: {
+        height: "height",
+        left: "left",
+      },
       transitionTimingFunction: {
-        'monogram-bezier': 'cubic-bezier(0.5, 0, 0, 1)',
+        "monogram-bezier": "cubic-bezier(0.5, 0, 0, 1)",
+      },
+      aspectRatio: {
+        "3/4": "3 / 4",
+        "16/10": "16 / 10",
+        "10/16": "10 / 16",
       },
     },
     screens: {
@@ -29,6 +38,8 @@ module.exports = {
       "tan-text": "#191919",
       "brown-bg": "#3D271E",
       "brown-text": "#F0E0B5",
+      "black-bg": "#191919",
+      "black-text": "#F0E0B5",
     },
     fontFamily: {
       brunswick: ["var(--font-brunswick)"],
