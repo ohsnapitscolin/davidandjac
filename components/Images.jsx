@@ -27,7 +27,7 @@ const Images = ({ images, to }) => {
   );
 
   return (
-    <div className="py-[10px] w-full" ref={containerRef}>
+    <div className="relative py-[10px] w-full" ref={containerRef}>
       {images.length > 1 ? (
         <DoubleImage images={images} />
       ) : (
@@ -47,12 +47,14 @@ const SingleImage = ({ images }) => {
         className="w-full hidden md:block"
         src={desktop}
         alt=""
+        sizes={"100vw"}
       />
       <Image
         priority={true}
         placeholder="blur"
         className="w-full block md:hidden"
         src={mobile}
+        sizes={"100vw"}
         alt=""
       />
     </>
@@ -67,6 +69,7 @@ const DoubleImage = ({ images }) => {
         placeholder="blur"
         className="col-span-full md:col-span-1 w-full"
         src={images[0]}
+        sizes={"(max-width: 768px) 100vw, 50vw"}
         alt=""
       />
       <Image
@@ -74,6 +77,7 @@ const DoubleImage = ({ images }) => {
         placeholder="blur"
         className="col-span-full md:col-span-1 w-full"
         src={images[1]}
+        sizes={"(max-width: 768px) 100vw, 50vw"}
         alt=""
       />
     </div>
