@@ -41,8 +41,20 @@ const SingleImage = ({ images }) => {
   const { mobile, desktop } = images[0];
   return (
     <>
-      <Image className="w-full hidden md:block" src={desktop} alt="" />
-      <Image className="w-full block md:hidden" src={mobile} alt="" />
+      <Image
+        priority={true}
+        placeholder="blur"
+        className="w-full hidden md:block"
+        src={desktop}
+        alt=""
+      />
+      <Image
+        priority={true}
+        placeholder="blur"
+        className="w-full block md:hidden"
+        src={mobile}
+        alt=""
+      />
     </>
   );
 };
@@ -51,11 +63,15 @@ const DoubleImage = ({ images }) => {
   return (
     <div className="w-full grid grid-cols-2 gap-[10px]">
       <Image
+        priority={true}
+        placeholder="blur"
         className="col-span-full md:col-span-1 w-full"
         src={images[0]}
         alt=""
       />
       <Image
+        priority={true}
+        placeholder="blur"
         className="col-span-full md:col-span-1 w-full"
         src={images[1]}
         alt=""
