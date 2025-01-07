@@ -9,11 +9,7 @@ const Section = ({ sections, forward, afterward, image }) => {
       className={`w-full flex justify-center px-[10px] md:px-[110px] lg:px-0 pt-10 lg:pt-0 pb-[100px] lg:pb-[120px]`}
     >
       <div className={"grid grid-cols-12 gap-[10px] w-full max-w-[1440px]"}>
-        <div
-          className={`col-span-full ${!!sections ? "lg:col-start-2" : "lg:col-start-5"} lg:col-span-4 px-[30px] md:px-[100px] lg:px-10 lg:py-20 mb-10`}
-        >
-          <Image src={image} alt="" />
-        </div>
+        <SectionImage image={image} center={!sections} />
         {sections && (
           <div className="col-span-full lg:col-start-7 lg:col-span-5 gap-[10px] lg:pt-[120px]">
             {!!forward && (
@@ -69,6 +65,18 @@ const Item = ({ item, last }) => {
           <Links links={item.links} />
         </div>
       )}
+    </div>
+  );
+};
+
+const SectionImage = ({ image, center }) => {
+  return (
+    <div
+      className={`col-span-full relative ${!center ? "lg:col-start-2" : "lg:col-start-5"} lg:col-span-4 px-[30px] md:px-[100px] lg:px-10 lg:pt-20 mb-10 lg:mb-0`}
+    >
+      <div className={`${!center && "lg:sticky"} lg:top-5 left-0`}>
+        <Image src={image} alt="" />
+      </div>
     </div>
   );
 };
