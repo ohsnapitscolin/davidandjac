@@ -3,15 +3,21 @@ import JPDSP_Header_Schedule from "@/assets/images/JPDSP_Header_Schedule.png";
 export const Schedule = {
   color: "bg-orange-bg",
   image: JPDSP_Header_Schedule,
-  afterward:
-    "Our wedding is an adults-only affair. If you’d like help with childcare arrangements, please feel free to reach out to us.",
+  afterward: [
+    "On the wedding day, we will be providing a looping shuttle service running down Warren St – Hudson’s main street. More details to come!",
+    "The wedding is an adults-only affair. If you’d like help with childcare arrangements, please feel free to reach out to us.",
+  ],
   sections: [
     {
       subhead: "Friday, June 13",
       items: [
         {
           title: [
-            [{ value: "Welcome party " }],
+            [
+              { value: "8-10" },
+              { style: "alpina", value: "pm " },
+              { value: "Welcome party " },
+            ],
             [
               { style: "alpina", value: "at" },
               { value: " " },
@@ -21,7 +27,10 @@ export const Schedule = {
               },
             ],
           ],
-          copy: "For those in town – hellos and big hugs as we kick off the weekend with drinks and small bites.",
+          copy: [
+            "For those in town – hellos and big hugs as we kick off the weekend with drinks and delicious small bites.",
+            "Dress code: Dressy casual, like you’re going out to dinner.",
+          ],
         },
       ],
     },
@@ -30,7 +39,11 @@ export const Schedule = {
       items: [
         {
           title: [
-            [{ value: "Wedding Ceremony " }],
+            [
+              { value: "5" },
+              { style: "alpina", value: "pm " },
+              { value: "Wedding Ceremony " },
+            ],
             [
               { style: "alpina", value: "at" },
               { value: " " },
@@ -40,7 +53,10 @@ export const Schedule = {
               },
             ],
           ],
-          copy: "David & Jacq get married! Dress code is semi-formal – encouraging your most fun and bright fashion choices. Weather permitting, the ceremony and cocktail hour will be outside in the garden.",
+          copy: [
+            "David & Jacq get married! Weather permitting, the ceremony and cocktail hour will be outside in the garden. There is limited parking at the venue, with the option to leave your car overnight.",
+            "Dress code: Semi-Formal. Have fun with it! If you’re inspired, embrace the beginning of the summer with bright and classy fashion choices. Suits and ties encouraged.",
+          ],
         },
         {
           title: [
@@ -54,9 +70,13 @@ export const Schedule = {
         },
         {
           title: [
-            [{ style: "alpina", value: "the" }, { value: " After Party" }],
+            [
+              { value: "11" },
+              { style: "alpina", value: "pm " },
+              { value: " After Party" },
+            ],
           ],
-          copy: "Keeping the party going at the dive bar around the corner.",
+          copy: "",
         },
       ],
     },

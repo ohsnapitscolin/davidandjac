@@ -41,9 +41,16 @@ const Section = ({ sections, forward, afterward, image }) => {
             {!!afterward && (
               <>
                 <Divider />
-                <p className="text-center lg:text-left text-lg font-alpina-italic italic">
-                  {afterward}
-                </p>
+                <div className="flex flex-col gap-3">
+                  {afterward.map((line, i) => (
+                    <p
+                      key={i}
+                      className="text-center lg:text-left text-lg font-alpina-italic italic"
+                    >
+                      {line}
+                    </p>
+                  ))}
+                </div>
               </>
             )}
           </div>
@@ -60,7 +67,7 @@ const Item = ({ item, last }) => {
       <Copy copy={item.copy} />
 
       {(item.subtext || item.links) && (
-        <div className="flex items-center gap-3 mt-2">
+        <div className="flex flex-wrap items-center gap-3 mt-2 whitespace-nowrap">
           <Subtext subtext={item.subtext} separator={!!item.links?.length} />
           <Links links={item.links} />
         </div>
@@ -132,7 +139,7 @@ const Subtext = ({ subtext, separator }) => {
     <>
       {style === "full" ? (
         <span
-          className="rounded px-2 flex items-center py-[2px]"
+          className="rounded px-2 flex items-center py-[2px] whitespace-nowrap"
           style={{ backgroundColor: "currentcolor" }}
         >
           <span

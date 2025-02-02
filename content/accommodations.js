@@ -17,15 +17,15 @@ export const Accommodations = {
               { value: " Vrbo" },
             ],
           ],
-          copy: "Hudson has a great array of cute rentals with lots of personality. On average, these tend to be a bit more affordable than the local hotels. We’ve curated a list of ones in the town of Hudson that should make it easy for you to get to all the wedding events!",
+          copy: "Hudson has a great array of cute rentals with lots of personality. On average, these tend to be a bit more affordable than the local hotels. Staying in downtown Hudson (near or off of Warren Street) will put you within walking distance of all the events!",
           links: [
             {
-              value: "List of Airbnbs",
-              link: "https://www.airbnb.com/wishlists/invite/b2632867-0022-4437-9c13-256ce35eb1ea?s=67&unique_share_id=a69c2934-10b2-4284-92c1-c1ac04fcc6fa",
+              value: "Local Airbnbs",
+              link: "https://www.airbnb.com/s/Hudson--New-York--United-States/homes?refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&monthly_start_date=2025-02-01&monthly_length=3&monthly_end_date=2025-05-01&price_filter_input_type=0&channel=EXPLORE&query=Hudson%2C%20NY&place_id=ChIJbU_L8ymU3YkRzaqMXJfLnmQ&date_picker_type=calendar&checkin=2025-06-13&checkout=2025-06-15&adults=1&source=structured_search_input_header&search_type=user_map_move&search_mode=regular_search&price_filter_num_nights=2&ne_lat=42.25955915530762&ne_lng=-73.78076455201472&sw_lat=42.23859503618707&sw_lng=-73.79613446239853&zoom=15.145583186818685&zoom_level=15.145583186818685&search_by_map=true",
             },
             {
-              value: "List of VRBOs",
-              link: "https://www.vrbo.com/trips/invite?inviteId=ZWd0aS1XOTQtQ0ZELU9IMUo6NTdiZjhiMDktMTUwMy00ZmQ4LTliYjYtNTk3MTA4NmY4YjU3&brandcid=VRBO.OWNED.BRANCH.DEFAULT.DESKTOP-SHARELINK&_branch_match_id=1120480325401717632&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL9ErK0rK18vM18%2Fw8irOKy4wTgpIsq8rSk1LLSrKzEuPTyrKLy9OLbJ1zijKz00FAN4q4fw3AAAA",
+              value: "Local VRBOs",
+              link: "https://www.vrbo.com/search?destination=Hudson%2C%20New%20York%2C%20United%20States%20of%20America&regionId=55762&latLong=42.24928%2C-73.78938&flexibility=0_DAY&d1=2025-06-13&startDate=2025-06-13&d2=2025-06-15&endDate=2025-06-15&adults=1&isInvalidatedDate=false&theme=&userIntent=&semdtl=&sort=RECOMMENDED&selected=&poi=&mapBounds=42.23922%2C-73.79741&mapBounds=42.25933%2C-73.78135&neighborhood=&multi_neighborhood_group=",
             },
           ],
         },
@@ -38,7 +38,7 @@ export const Accommodations = {
           title: [
             [{ style: "alpina", value: "the" }, { value: " Howard Hotel" }],
           ],
-          copy: "A 7-room boutique hotel towards the north end of main street.",
+          copy: "7-room boutique hotel towards the north end of the Warren St.",
           subtext: { value: "Rooms starting from $269" },
           links: [
             { value: "Website", link: "https://www.howardhotel.net" },
@@ -52,7 +52,7 @@ export const Accommodations = {
           title: [
             [{ style: "alpina", value: "the" }, { value: " Hudson Mariner" }],
           ],
-          copy: "Formerly a Captain’s home from 210 years ago – now a cute BNB at the north end of main street.",
+          copy: "Formerly a Captain’s home from 210 years ago – now a cute BNB at the north end of Warren St.",
           subtext: { value: "Rooms starting from $349, 2 night min" },
           links: [
             { value: "Website", link: "https://hudsonmariner.com" },
@@ -66,7 +66,7 @@ export const Accommodations = {
           title: [
             [{ style: "alpina", value: "the" }, { value: " Maker Hotel" }],
           ],
-          copy: "An award-winning luxurious hotel with an all-day cafe, lounge, restaurant and gymnasium. Great for those looking to treat themselves to a lovely weekend!",
+          copy: "Award-winning luxurious hotel with an all-day cafe, lounge, restaurant and gymnasium. Great for those looking to treat themselves to a lovely weekend!",
           subtext: { value: "Rooms starting from $525" },
           links: [
             { value: "Website", link: "https://www.themaker.com/" },
@@ -80,7 +80,7 @@ export const Accommodations = {
           title: [
             [{ style: "alpina", value: "the" }, { value: " Amelia Hotel" }],
           ],
-          copy: "An 8-room boutique hotel with simple, peaceful, and thoughtful decor – and a pool!",
+          copy: "8-room boutique hotel with simple, peaceful, and thoughtful decor – and a pool!",
           subtext: { value: "Rooms starting from $525, 2 night min" },
           links: [
             { value: "Website", link: "https://theameliahudson.com" },
@@ -98,10 +98,10 @@ export const Accommodations = {
               { value: " Sons" },
             ],
           ],
-          copy: "A friendly hotel with a new american feel, plus a well-loved local restaurant and cocktail bar. About a block away from our wedding venue!",
+          copy: "Friendly hotel with a new–American feel, plus a well-loved local restaurant and cocktail bar. About a block away from our wedding venue!",
           subtext: {
             style: "full",
-            value: "Booking opens mid-March",
+            value: "Booking opens March 17 (90 days in advance)",
           },
           links: [
             { value: "Website", link: "https://www.wmfarmerandsons.com" },
@@ -113,7 +113,7 @@ export const Accommodations = {
         },
         {
           title: [[{ value: "Rivertown Lodge" }]],
-          copy: "A former movie theatre from 1928 turned adorable boutique hotel. We’ll be staying here (and is also the location for our welcome event)!",
+          copy: "Former movie theatre from 1928 turned adorable boutique hotel. We’ll be staying here (and it’s also the location for our welcome event)!",
           subtext: {
             style: "full",
             value: "Full!",
