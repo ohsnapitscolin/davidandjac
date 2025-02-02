@@ -75,7 +75,7 @@ const DesktopNav = ({ active }) => {
       className={`z-10 fixed top-0 ${active ? "h-[52px]" : "h-0"} overflow-hidden transition-height w-full flex justify-center`}
       style={{ backgroundColor: "inherit" }}
     >
-      <div className="w-full h-full grid grid-cols-12 gap-[10px] w-full max-w-[1440px] px-5">
+      <div className="w-full h-full grid grid-cols-12 gap-[10px] w-full px-5">
         <div className="col-span-6 flex items-center">
           <a href="#" className="font-alpina-italic italic">
             David and Jacqueline
