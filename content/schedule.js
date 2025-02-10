@@ -4,7 +4,7 @@ export const Schedule = {
   color: "bg-orange-bg",
   image: JPDSP_Header_Schedule,
   afterward: [
-    "On the wedding day, we will be providing a looping shuttle service running down Warren St – Hudson’s main street. More details to come!",
+    "On the wedding day, we will be providing a looping shuttle service running down Warren St – Hudson’s main street. We’ll email out a full schedule prior to the wedding.",
     "The wedding is an adults-only affair. If you’d like help with childcare arrangements, please feel free to reach out to us.",
   ],
   sections: [
@@ -29,7 +29,7 @@ export const Schedule = {
           ],
           copy: [
             "For those in town – hellos and big hugs as we kick off the weekend with drinks and delicious small bites.",
-            "Dress code: Dressy casual, like you’re going out to dinner.",
+            "<i>Dress code</i>: Dressy casual, like you’re going out to dinner.",
           ],
         },
       ],
@@ -55,7 +55,7 @@ export const Schedule = {
           ],
           copy: [
             "David & Jacq get married! Weather permitting, the ceremony and cocktail hour will be outside in the garden. There is limited parking at the venue, with the option to leave your car overnight.",
-            "Dress code: Semi-Formal. Have fun with it! If you’re inspired, embrace the beginning of the summer with bright and classy fashion choices. Suits and ties encouraged.",
+            "<i>Dress code</i>: Semi-Formal. Embrace the beginning of summer and have fun with it! Think bright, playful, and classy. Suits and ties encouraged.",
           ],
         },
         {
@@ -63,7 +63,15 @@ export const Schedule = {
             [
               { value: "Cocktail hour, dinner, " },
               { style: "alpina", value: "and" },
-              { value: " Dancing" },
+              { value: " Dancing " },
+            ],
+            [
+              { style: "alpina", value: "at" },
+              { value: " " },
+              {
+                link: "https://www.google.com/maps/place/The+Caboose+Hudson/@42.2540123,-73.8022879,17z/data=!4m16!1m9!3m8!1s0x89dd951368eca77d:0x1010338ff3a7b1ef!2sThe+Caboose+Hudson!8m2!3d42.2540084!4d-73.7974224!9m1!1b1!16s%2Fg%2F11vb4fhgqj!3m5!1s0x89dd951368eca77d:0x1010338ff3a7b1ef!8m2!3d42.2540084!4d-73.7974224!16s%2Fg%2F11vb4fhgqj?entry=ttu&g_ep=EgoyMDI0MTIwMy4wIKXMDSoASAFQAw%3D%3D",
+                value: "The Caboose",
+              },
             ],
           ],
           copy: "Follow up the ceremony with a happy evening of food, drink, and celebration. Dinner and dancing will be indoors.",
@@ -76,7 +84,7 @@ export const Schedule = {
               { value: " After Party" },
             ],
           ],
-          copy: "",
+          copy: "Details to come.",
         },
       ],
     },
@@ -90,6 +98,7 @@ export const Schedule = {
               { value: " Casual goodbye brekkie" },
             ],
           ],
+          copy: "We’ll be hanging out for a while at a local bakery – come swing by! More details to come.",
         },
       ],
     },

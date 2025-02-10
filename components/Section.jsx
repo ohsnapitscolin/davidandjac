@@ -100,9 +100,11 @@ const Copy = ({ copy }) => {
   return (
     <div>
       {lines.map((line, index) => (
-        <p key={index} className="whitespace-pre-wrap font-alpina mt-2">
-          {line}
-        </p>
+        <p
+          dangerouslySetInnerHTML={{ __html: line }}
+          key={index}
+          className="whitespace-pre-wrap font-alpina mt-2"
+        />
       ))}
     </div>
   );

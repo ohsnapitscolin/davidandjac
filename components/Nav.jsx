@@ -62,6 +62,12 @@ const MobileNav = ({ active }) => {
             >
               Registry
             </a>
+            <a
+                href="https://www.zola.com/wedding/davidandjacqueline2025/rsvp"
+                target="__blank"
+            >
+              RSVP
+            </a>
           </div>
         </div>
       </div>
@@ -97,6 +103,13 @@ const DesktopNav = ({ active }) => {
             className="font-alpina-italic italic"
           >
             Registry
+          </a>
+          <a
+              href="https://www.zola.com/wedding/davidandjacqueline2025/rsvp"
+              target="__blank"
+              className="font-alpina-italic italic"
+          >
+            RSVP
           </a>
         </div>
       </div>
