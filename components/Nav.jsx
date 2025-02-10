@@ -59,14 +59,14 @@ const MobileNav = ({ active }) => {
             <a
               href="https://www.zola.com/registry/davidandjacqueline2025"
               rel="noopener noreferrer"
-              target="__blank"
+              target="_blank"
             >
               Registry
             </a>
             <a
                 href="https://www.zola.com/wedding/davidandjacqueline2025/rsvp"
                 rel="noopener noreferrer"
-                target="__blank"
+                target="_blank"
             >
               RSVP
             </a>
@@ -101,7 +101,7 @@ const DesktopNav = ({ active }) => {
           </a>
           <a
             href="https://www.zola.com/registry/davidandjacqueline2025"
-            target="__blank"
+            target="_blank"
             rel="noopener noreferrer"
             className="font-alpina-italic italic"
           >
@@ -109,7 +109,7 @@ const DesktopNav = ({ active }) => {
           </a>
           <a
               href="https://www.zola.com/wedding/davidandjacqueline2025/rsvp"
-              target="__blank"
+              target="_blank"
               rel="noopener noreferrer"
               className="font-alpina-italic italic"
           >

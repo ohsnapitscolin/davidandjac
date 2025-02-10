@@ -17,7 +17,7 @@ const Title = ({ lines }) => {
               {link ? (
                 <a
                   href={link}
-                  target={link.startsWith("http") ? "__blank" : undefined}
+                  target={link.startsWith("http") ? "_blank" : undefined}
                   className="underline underline-offset-4"
                 >
                   {value}

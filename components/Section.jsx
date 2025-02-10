@@ -119,7 +119,7 @@ const Links = ({ links }) => {
           <a
             className="font-alpina-italic italic text-sm"
             href={l.link}
-            target="__blank"
+            target="_blank"
             rel="noopener noreferrer"
           >
             {l.value}
