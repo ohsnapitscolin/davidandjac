@@ -35,6 +35,20 @@ export const Accommodations = {
       subhead: "Hotels",
       items: [
         {
+          title: [[{ value: "Rivertown Lodge" }]],
+          copy: "Former movie theatre from 1928 turned adorable boutique hotel. We’ll be staying here (and it’s also the location for our welcome event)!",
+          subtext: {
+            value: "Rooms starting from $239",
+          },
+          links: [
+            { value: "Website", link: "https://rivertownlodge.com" },
+            {
+              value: "Map",
+              link: "https://www.google.com/maps/place/Rivertown+Lodge/@42.2464833,-73.7852053,17z/data=!3m1!4b1!4m10!3m9!1s0x89dd969d50bbdd63:0xdf9f0b15a65df983!5m3!1s2024-12-31!4m1!1i2!8m2!3d42.2464833!4d-73.782625!16s%2Fg%2F11bwyngf6v?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D",
+            },
+          ],
+        },
+        {
           title: [
             [{ style: "alpina", value: "the" }, { value: " Howard Hotel" }],
           ],
@@ -108,21 +122,6 @@ export const Accommodations = {
             {
               value: "Map",
               link: "https://www.google.com/maps/place/Wm.+Farmer+and+Sons/@42.2557142,-73.7988628,17z/data=!4m10!3m9!1s0x89dd95d31f3ec3e1:0x7d398c9224db3677!5m3!1s2024-12-31!4m1!1i2!8m2!3d42.2557142!4d-73.7962825!16s%2Fg%2F11byp6r48j?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D",
-            },
-          ],
-        },
-        {
-          title: [[{ value: "Rivertown Lodge" }]],
-          copy: "Former movie theatre from 1928 turned adorable boutique hotel. We’ll be staying here (and it’s also the location for our welcome event)!",
-          subtext: {
-            style: "full",
-            value: "Full!",
-          },
-          links: [
-            { value: "Website", link: "https://rivertownlodge.com" },
-            {
-              value: "Map",
-              link: "https://www.google.com/maps/place/Rivertown+Lodge/@42.2464833,-73.7852053,17z/data=!3m1!4b1!4m10!3m9!1s0x89dd969d50bbdd63:0xdf9f0b15a65df983!5m3!1s2024-12-31!4m1!1i2!8m2!3d42.2464833!4d-73.782625!16s%2Fg%2F11bwyngf6v?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D",
             },
           ],
         },
