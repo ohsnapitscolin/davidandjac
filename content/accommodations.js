@@ -78,6 +78,26 @@ export const Accommodations = {
         },
         {
           title: [
+            [
+              { value: "WM. Farmer " },
+              { style: "alpina", value: "and" },
+              { value: " Sons" },
+            ],
+          ],
+          copy: "Friendly hotel with a new–American feel, plus a well-loved local restaurant and cocktail bar. About a block away from our wedding venue!",
+          subtext: {
+            value: "Rooms starting from $389, 2 night min",
+          },
+          links: [
+            { value: "Website", link: "https://www.wmfarmerandsons.com" },
+            {
+              value: "Map",
+              link: "https://www.google.com/maps/place/Wm.+Farmer+and+Sons/@42.2557142,-73.7988628,17z/data=!4m10!3m9!1s0x89dd95d31f3ec3e1:0x7d398c9224db3677!5m3!1s2024-12-31!4m1!1i2!8m2!3d42.2557142!4d-73.7962825!16s%2Fg%2F11byp6r48j?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D",
+            },
+          ],
+        },
+        {
+          title: [
             [{ style: "alpina", value: "the" }, { value: " Maker Hotel" }],
           ],
           copy: "Award-winning luxurious hotel with an all-day cafe, lounge, restaurant and gymnasium. Great for those looking to treat themselves to a lovely weekend!",
@@ -101,27 +121,6 @@ export const Accommodations = {
             {
               value: "Map",
               link: "https://www.google.com/maps/place/The+Amelia+Hudson/@42.2505569,-73.7916717,17z/data=!4m10!3m9!1s0x89dd9563a96a06ed:0x538689942674ce0a!5m3!1s2024-12-31!4m1!1i2!8m2!3d42.2505569!4d-73.7916717!16s%2Fg%2F11rc5r2jyn?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D",
-            },
-          ],
-        },
-        {
-          title: [
-            [
-              { value: "WM. Farmer " },
-              { style: "alpina", value: "and" },
-              { value: " Sons" },
-            ],
-          ],
-          copy: "Friendly hotel with a new–American feel, plus a well-loved local restaurant and cocktail bar. About a block away from our wedding venue!",
-          subtext: {
-            style: "full",
-            value: "Booking opens March 17 (90 days in advance)",
-          },
-          links: [
-            { value: "Website", link: "https://www.wmfarmerandsons.com" },
-            {
-              value: "Map",
-              link: "https://www.google.com/maps/place/Wm.+Farmer+and+Sons/@42.2557142,-73.7988628,17z/data=!4m10!3m9!1s0x89dd95d31f3ec3e1:0x7d398c9224db3677!5m3!1s2024-12-31!4m1!1i2!8m2!3d42.2557142!4d-73.7962825!16s%2Fg%2F11byp6r48j?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D",
             },
           ],
         },
