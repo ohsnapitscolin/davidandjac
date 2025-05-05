@@ -102,7 +102,7 @@ export const Schedule = {
               { style: "alpina", value: "at" },
               { value: " " },
               {
-                link: "https://maps.app.goo.gl/GCBfgyBouuXUUTyU9",
+                link: "https://www.google.com/maps/place/Mel+The+Bakery/@42.2526644,-73.7900282,17z/data=!3m1!4b1!4m6!3m5!1s0x89c25b5888884d73:0x1d582603d0627d75!8m2!3d42.2526644!4d-73.7900282!16s%2Fg%2F11k7jc7wd_?entry=ttu&g_ep=EgoyMDI1MDQzMC4xIKXMDSoASAFQAw%3D%3D",
                 value: "Mel the Bakery",
               },
             ],
