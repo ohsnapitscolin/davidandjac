@@ -98,10 +98,10 @@ const Copy = ({ copy }) => {
   const lines = useMemo(() => (Array.isArray(copy) ? copy : [copy]), [copy]);
 
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col">
       {lines.map((line, index) => {
         return line.value ? (
-          <p className="text-center lg:text-left text-lg font-alpina-italic italic line-height">
+          <p className="text-center lg:text-left text-lg font-alpina-italic italic line-height mt-3 first-of-type:mt-0">
             {line.value}
           </p>
         ) : (
