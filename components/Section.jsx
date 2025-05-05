@@ -63,7 +63,7 @@ const Section = ({ sections, forward, afterward, image }) => {
 const Item = ({ item, last }) => {
   return (
     <div className={last ? "mb-0" : "mb-12"}>
-      <Title lines={item.title} />
+      {item.title && <Title lines={item.title} />}
       <Copy copy={item.copy} />
 
       {(item.subtext || item.links) && (
@@ -98,14 +98,20 @@ const Copy = ({ copy }) => {
   const lines = useMemo(() => (Array.isArray(copy) ? copy : [copy]), [copy]);
 
   return (
-    <div>
-      {lines.map((line, index) => (
-        <p
-          dangerouslySetInnerHTML={{ __html: line }}
-          key={index}
-          className="whitespace-pre-wrap font-alpina mt-2"
-        />
-      ))}
+    <div className="flex flex-col gap-3">
+      {lines.map((line, index) => {
+        return line.value ? (
+          <p className="text-center lg:text-left text-lg font-alpina-italic italic line-height">
+            {line.value}
+          </p>
+        ) : (
+          <p
+            dangerouslySetInnerHTML={{ __html: line }}
+            key={index}
+            className="whitespace-pre-wrap font-alpina mt-2"
+          />
+        );
+      })}
     </div>
   );
 };

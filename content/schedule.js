@@ -3,10 +3,6 @@ import JPDSP_Header_Schedule from "@/assets/images/JPDSP_Header_Schedule.png";
 export const Schedule = {
   color: "bg-orange-bg",
   image: JPDSP_Header_Schedule,
-  afterward: [
-    "On the wedding day, we will be providing a looping shuttle service running down Warren St – Hudson’s main street. We’ll email out a full schedule prior to the wedding.",
-    "The wedding is an adults-only affair. If you’d like help with childcare arrangements, please feel free to reach out to us.",
-  ],
   sections: [
     {
       subhead: "Friday, June 13",
@@ -81,10 +77,18 @@ export const Schedule = {
             [
               { value: "11" },
               { style: "alpina", value: "pm " },
-              { value: " After Party" },
+              { value: " After Party " },
+            ],
+            [
+              { style: "alpina", value: "at" },
+              { value: " " },
+              {
+                link: "https://maps.app.goo.gl/9UFkdhNd6Z5p1ZC9A",
+                value: "Half Moon",
+              },
             ],
           ],
-          copy: "Details to come.",
+          copy: "We’ll keep the party going at the town’s best dive bar, located next door to the wedding venue!",
         },
       ],
     },
@@ -93,12 +97,54 @@ export const Schedule = {
       items: [
         {
           title: [
+            [{ value: " Casual goodbye brekkie " }],
             [
-              { style: "alpina", value: "a" },
-              { value: " Casual goodbye brekkie" },
+              { style: "alpina", value: "at" },
+              { value: " " },
+              {
+                link: "https://maps.app.goo.gl/GCBfgyBouuXUUTyU9",
+                value: "Mel the Bakery",
+              },
             ],
           ],
-          copy: "We’ll be hanging out for a while at a local bakery – come swing by! More details to come.",
+          copy: "Weather permitting, we’ll be hanging outside for a while at this delicious local bakery – come swing by and grab a pastry on your way out of town!",
+        },
+      ],
+    },
+    {
+      items: [
+        {
+          copy: [
+            {
+              value:
+                "On the wedding day, we will be providing a looping shuttle service running down Warren St – Hudson’s main street. We’ll email out a full schedule prior to the wedding.",
+              style: "note",
+            },
+            {
+              value:
+                "The wedding is an adults-only affair. If you’d like help with childcare arrangements, please feel free to reach out to us.",
+              style: "note",
+            },
+          ],
+        },
+      ],
+    },
+    {
+      items: [
+        {
+          title: [
+            [
+              { style: "alpina", value: "local" },
+              { value: " Recommendations" },
+            ],
+          ],
+          copy: "In your downtime, there’s lots to do in the town of Hudson and the beautiful surrounding area. We’ve put together a doc of our favorite spots!",
+          links: [
+            {
+              value: "Guide",
+              link: "https://drive.google.com/file/d/1GnfdTU7iw1oRq1J0arDszRtZ2rGkfO9W/view?usp=sharing",
+            },
+          ],
         },
       ],
     },
