@@ -2,6 +2,11 @@ import Title from "@/components/Title";
 import Circle from "@/components/Circle";
 import Image from "next/image";
 import { useMemo } from "react";
+import NewTime from "./NewTime";
+
+const COMPONENT_MAP = {
+  NewTime: NewTime,
+};
 
 const Section = ({ sections, forward, afterward, image }) => {
   return (
@@ -61,6 +66,11 @@ const Section = ({ sections, forward, afterward, image }) => {
 };
 
 const Item = ({ item, last }) => {
+  if (item.component) {
+    const Comp = COMPONENT_MAP[item.component];
+    return <Comp {...(item.props || {})} />;
+  }
+
   return (
     <div className={last ? "mb-0" : "mb-12"}>
       {item.title && <Title lines={item.title} />}
@@ -101,14 +111,14 @@ const Copy = ({ copy }) => {
     <div className="flex flex-col">
       {lines.map((line, index) => {
         return line.value ? (
-          <p className="text-center lg:text-left text-lg font-alpina-italic italic line-height mt-3 first-of-type:mt-0">
+          <p className="text-center lg:text-left text-lg font-alpina-italic italic line-height mt-3 first-of-type:mt-0 underline-links">
             {line.value}
           </p>
         ) : (
           <p
             dangerouslySetInnerHTML={{ __html: line }}
             key={index}
-            className="whitespace-pre-wrap font-alpina mt-2"
+            className="whitespace-pre-wrap font-alpina mt-2 underline-links"
           />
         );
       })}

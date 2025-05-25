@@ -34,3 +34,9 @@ button:hover {
   background-clip: text; /* Clips the background to the text */
   -webkit-text-fill-color: transparent; /* Makes the text itself transparent */
 }
+
+.underline-links > a {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}

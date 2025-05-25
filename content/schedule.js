@@ -24,7 +24,7 @@ export const Schedule = {
             ],
           ],
           copy: [
-            "For those in town – hellos and big hugs as we kick off the weekend with drinks and delicious small bites.",
+            "For those in town – hellos and big hugs as we kick off the weekend with drinks and delicious small bites. If you’re looking for a place to grab dinner beforehand, check out our <a href='https://drive.google.com/file/d/1GnfdTU7iw1oRq1J0arDszRtZ2rGkfO9W/view'>local guide</a>.",
             "<i>Dress code</i>: Dressy casual, like you’re going out to dinner.",
           ],
         },
@@ -33,10 +33,11 @@ export const Schedule = {
     {
       subhead: "Saturday, June 14",
       items: [
+        { component: "NewTime" },
         {
           title: [
             [
-              { value: "5" },
+              { value: "4" },
               { style: "alpina", value: "pm " },
               { value: "Wedding Ceremony " },
             ],
@@ -50,7 +51,8 @@ export const Schedule = {
             ],
           ],
           copy: [
-            "David & Jacq get married! Weather permitting, the ceremony and cocktail hour will be outside in the garden. There is limited parking at the venue, with the option to leave your car overnight.",
+            "David & Jacq get married! Weather permitting, the ceremony and cocktail hour will be outside in the garden. There is parking at the venue, with the option to leave your car overnight.",
+            "Please arrive with time to spare - the ceremony will begin promptly at 4",
             "<i>Dress code</i>: Semi-Formal. Embrace the beginning of summer and have fun with it! Think bright, playful, and classy. Suits and ties encouraged.",
           ],
         },
@@ -75,7 +77,7 @@ export const Schedule = {
         {
           title: [
             [
-              { value: "11" },
+              { value: "10:30" },
               { style: "alpina", value: "pm " },
               { value: " After Party " },
             ],
@@ -97,7 +99,11 @@ export const Schedule = {
       items: [
         {
           title: [
-            [{ value: " Casual goodbye brekkie " }],
+            [
+              { value: "10" },
+              { style: "alpina", value: "am " },
+              { value: " Casual goodbye brekkie " },
+            ],
             [
               { style: "alpina", value: "at" },
               { value: " " },
@@ -114,17 +120,18 @@ export const Schedule = {
     {
       items: [
         {
+          title: [
+            [
+              { value: "Getting there " },
+              { style: "alpina", value: "and" },
+              { value: " back" },
+            ],
+          ],
           copy: [
-            {
-              value:
-                "On the wedding day, we will be providing a looping shuttle service running down Warren St – Hudson’s main street. We’ll email out a full schedule prior to the wedding.",
-              style: "note",
-            },
-            {
-              value:
-                "The wedding is an adults-only affair. If you’d like help with childcare arrangements, please feel free to reach out to us.",
-              style: "note",
-            },
+            "<i>Getting to the wedding:</i> Because of the parade, we are only able to offer a shuttle to those staying at Rivertown lodge. For those staying elsewhere, you will need to walk or arrange your own transport. If you are staying on the North side of Warren St, note that walking might be your best option as many streets will be closed to cars. We are so sorry about any inconvenience and appreciate everyone’s flexibility!",
+            "<i>Getting home:</i> A looping shuttle is available to all guests, starting at 10:30. It will run down Warren St – Hudson’s main street, making stops along the way and ending at Rivertown Lodge.",
+            "<i>Important note: Because of the parade, many streets in Hudson will be closed for street parking and driving on Saturday. Please review the following information when planning your parking and driving on that day.</i>",
+            "<a href='https://docs.google.com/document/d/114yrqwCUTpAWzTCQTAhqVccy2TBLTWSKV4ohHseOoio/edit?tab=t.0#heading=h.hit28d17jl6e'><i>Transportation guide</i></a>",
           ],
         },
       ],
@@ -141,8 +148,8 @@ export const Schedule = {
           copy: "In your downtime, there’s lots to do in the town of Hudson and the beautiful surrounding area. We’ve put together a doc of our favorite spots!",
           links: [
             {
-              value: "Guide",
-              link: "https://drive.google.com/file/d/1GnfdTU7iw1oRq1J0arDszRtZ2rGkfO9W/view?usp=sharing",
+              value: "Local guide",
+              link: "https://drive.google.com/file/d/1GnfdTU7iw1oRq1J0arDszRtZ2rGkfO9W/view",
             },
           ],
         },
