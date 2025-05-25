@@ -131,7 +131,12 @@ export const Schedule = {
             "<i>Getting to the wedding:</i> Because of the parade, we are only able to offer a shuttle to those staying at Rivertown lodge. For those staying elsewhere, you will need to walk or arrange your own transport. If you are staying on the North side of Warren St, note that walking might be your best option as many streets will be closed to cars. We are so sorry about any inconvenience and appreciate everyone’s flexibility!",
             "<i>Getting home:</i> A looping shuttle is available to all guests, starting at 10:30. It will run down Warren St – Hudson’s main street, making stops along the way and ending at Rivertown Lodge.",
             "<i>Important note: Because of the parade, many streets in Hudson will be closed for street parking and driving on Saturday. Please review the following information when planning your parking and driving on that day.</i>",
-            "<a href='https://docs.google.com/document/d/114yrqwCUTpAWzTCQTAhqVccy2TBLTWSKV4ohHseOoio/edit?tab=t.0#heading=h.hit28d17jl6e'><i>Transportation guide</i></a>",
+          ],
+          links: [
+            {
+              value: "Transportation guide",
+              link: "https://docs.google.com/document/d/114yrqwCUTpAWzTCQTAhqVccy2TBLTWSKV4ohHseOoio/edit?tab=t.0#heading=h.hit28d17jl6e",
+            },
           ],
         },
       ],

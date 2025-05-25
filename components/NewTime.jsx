@@ -19,7 +19,7 @@ const NewTime = () => {
         </i>
       </p>
       <a
-        className="font-alpina-italic underline decoration-1 underline-offset-[3px]"
+        className="font-alpina-italic underline decoration-1 underline-offset-[3px] text-sm"
         href="https://docs.google.com/document/d/114yrqwCUTpAWzTCQTAhqVccy2TBLTWSKV4ohHseOoio/edit?tab=t.0#heading=h.hit28d17jl6e"
       >
         Transportation guide
